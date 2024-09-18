@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\jarve\eclipse-workspace\COMPSCI 251\.metadata\.plugins\org.eclipse.jdt.core
+299656582.index
+3430291386.index
+1032892178.index
+2761555624.index

@@ -1,0 +1,33 @@
+
+public class DeckDriver
+{
+	public static void main(String[] args)
+	{
+		Deck myDeck = new Deck();
+		final int cardsPerRow = 8;
+		int cardsThisRow = 0;
+		int myCard;
+		myDeck.initDeck();
+		System.out.println("\nHere is a shuffled deck ...\n");
+		while (!myDeck.emptyDeck())
+		{
+			myCard = myDeck.dealCard();
+			String myCardDisplay;
+			++cardsThisRow;
+			if (cardsThisRow <= cardsPerRow)
+			{
+				myCardDisplay = myDeck.cardToString(myCard);
+				System.out.print(myCardDisplay + " ");
+			}
+			else
+			{
+				System.out.println("");
+				cardsThisRow = 1;
+				myCardDisplay = myDeck.cardToString(myCard);
+				System.out.print(myCardDisplay + " ");
+			}
+		}
+		
+		System.out.println('\n');
+	}
+}

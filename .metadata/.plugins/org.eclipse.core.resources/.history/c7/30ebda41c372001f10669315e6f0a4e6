@@ -1,0 +1,16 @@
+
+public class SmartDeck
+{
+	private int cardsDealt = 0;
+	
+	public int cardsDealt(boolean[] deck)
+	{
+		for(int i = 0; i < deck.length; i++)
+		{
+			if(deck[i] == false)
+				cardsDealt++;
+		}
+		
+		return cardsDealt;
+	}
+}

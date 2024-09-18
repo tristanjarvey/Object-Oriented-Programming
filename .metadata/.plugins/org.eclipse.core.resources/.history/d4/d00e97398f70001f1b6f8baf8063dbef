@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+
+public class SMouseDriver
+{
+  public static void main(String[] args) 
+  {
+    Scanner stdIn = new Scanner(System.in);
+	
+    SMouse mighty = new SMouse();  
+    SMouse mickey = new SMouse();
+
+    System.out.println("");
+
+
+    System.out.println("");
+
+
+    System.out.println("");
+    
+    stdIn.close();
+  }
+}
