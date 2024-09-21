@@ -92,20 +92,6 @@ public class Card
 		return clone;
 	}
 	
-//	public boolean equals(Card guest)
-//	{
-//		if((guest.suit.equals(this.getSuit())) && (guest.rank == this.getRank()))
-//		{
-//			return true;
-//		}
-//		else
-//		{
-//			return false;
-//		}
-//	}
-	
-	// TEST
-	
 	public boolean equals(Card guest)
 	{
 		if(guest.toString().equals(this.toString()))
@@ -118,16 +104,10 @@ public class Card
 		}
 	}
 	
-	// TEST
-	
 	public String toString()
 	{
 		String s = this.getRank() + this.getSuit();
 		
 		return s;
 	}
-	
-/* create an array of objects (each representing a unique card) then transpose the
- * references
- */
 }
